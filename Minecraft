@@ -9,7 +9,7 @@ from numpy import floor
 
 app = Ursina()
 
-jukebox = FirstPersonController()
+Codenamex560 = FirstPersonController()
 
 boxes = []
 
@@ -115,14 +115,14 @@ window.borderless = False
 scene.fog_color = rgb(120, 33, 173)
 scene.fog_density = 0.001
 window.fps_counter.enabled = True
-jukebox.cursor.visible = True
-jukebox.gravity = 0.01
-jukebox.jump_height = 6
-jukebox.cursor.color = color.red
-jukebox.cursor.model = "circle"
-# jukebox.speed = 2
-jukebox.y = 10
-jukebox = HealthBar(20)
+Codenamex560.cursor.visible = True
+Codenamex560.gravity = 0.01
+Codenamex560.jump_height = 6
+Codenamex560.cursor.color = color.red
+Codenamex560.cursor.model = "circle"
+Codenamex560.speed = 2
+Codenamex560.y = 10
+Codenamex560 = HealthBar(20)
 
 sky = Sky()
 
